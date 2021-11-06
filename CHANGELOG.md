@@ -1,3 +1,10 @@
+# [1.0.0-alpha.4](https://github.com/frender-rs/react-sys/compare/v1.0.0-alpha.3...v1.0.0-alpha.4) (2021-11-06)
+
+
+### Features
+
+* unsafe React.useEffect ([05f851f](https://github.com/frender-rs/react-sys/commit/05f851faa72d58262971af6109ac60472eef0432))
+
 # [1.0.0-alpha.3](https://github.com/frender-rs/react-sys/compare/v1.0.0-alpha.2...v1.0.0-alpha.3) (2021-11-06)
 
 
