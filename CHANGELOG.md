@@ -1,3 +1,16 @@
+# [1.0.0-alpha.2](https://github.com/frender-rs/react-sys/compare/v1.0.0-alpha.1...v1.0.0-alpha.2) (2021-11-06)
+
+
+### Bug Fixes
+
+* cargo keywords max to 5 ([cd9de32](https://github.com/frender-rs/react-sys/commit/cd9de32b83619574d123572145b151dc6baa9afa))
+* js snippets ([2fd853a](https://github.com/frender-rs/react-sys/commit/2fd853a798635b3c20981b679284e76bcdf36155))
+
+
+### Features
+
+* ReactDOM.render ([51485d6](https://github.com/frender-rs/react-sys/commit/51485d6fb19aa5eb3326edc538439d81865d7c8b))
+
 # 1.0.0-alpha.1 (2021-11-06)
 
 
