@@ -7,14 +7,12 @@
 
 Globally and safely persist a value, implemented with `ManuallyDrop`.
 
-# Install
+# WIP
 
-`Cargo.toml`
+This crate is NOT ready for production
+and is under heavy development.
+This crate intends to be used by [`frender`](https://github.com/frender-rs/frender),
+which provides a friendly and safe api to use React in rust.
 
-```toml
-react-sys = "1"
-```
-
-# Docs
-
-Please see [docs.rs](https://docs.rs/react-sys)
+Checkout [alpha](https://github.com/frender-rs/react-sys/tree/alpha#todo) branch
+to see more information.
