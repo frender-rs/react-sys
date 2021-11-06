@@ -1,7 +1,7 @@
 #[cfg(feature = "import-react")]
 macro_rules! wasm_bindgen_react {
     ($($b:item)+) => {
-        #[wasm_bindgen]
+        #[wasm_bindgen(module = "/helpers/react-import.js")]
         extern "C" {
             $($b)+
         }
@@ -11,7 +11,7 @@ macro_rules! wasm_bindgen_react {
 #[cfg(not(feature = "import-react"))]
 macro_rules! wasm_bindgen_react {
     ($($b:item)+) => {
-        #[wasm_bindgen(inline_js = r#"export * as React from "react";"#)]
+        #[wasm_bindgen]
         extern "C" {
             $($b)+
         }

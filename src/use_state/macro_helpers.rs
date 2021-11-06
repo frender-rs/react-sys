@@ -1,19 +1,7 @@
 #[cfg(feature = "import-react")]
 macro_rules! wasm_bindgen_react_state_helpers {
     ($($b:item)+) => {
-        #[wasm_bindgen(inline_js = r#"
-        import * as React from "react";
-        export { React };
-        export function use_state_object(initial_value) {
-            const [state, set_state] = React.useState(initial_value);
-            return { value: state, setter: { set_state } };
-        }
-        export function use_state_auto_clean(initial_value, clean) {
-            const obj = use_state_object(initial_value);
-            const state = obj.value;
-            React.useEffect(() => { clean(state) }, [state]);
-        }
-        "#)]
+        #[wasm_bindgen(module = "/helpers/use-state-import.js")]
         extern "C" {
             $($b)+
         }
@@ -23,17 +11,7 @@ macro_rules! wasm_bindgen_react_state_helpers {
 #[cfg(not(feature = "import-react"))]
 macro_rules! wasm_bindgen_react_state_helpers {
     ($($b:item)+) => {
-        #[wasm_bindgen(inline_js = r#"
-        export function use_state_object(initial_value) {
-            const [state, set_state] = React.useState(initial_value);
-            return { value: state, setter: { set_state } };
-        }
-        export function use_state_auto_clean(initial_value, clean) {
-            const obj = use_state_object(initial_value);
-            const state = obj.value;
-            React.useEffect(() => { clean(state) }, [state]);
-        }
-        "#)]
+        #[wasm_bindgen(module = "/helpers/use-state.js")]
         extern "C" {
             $($b)+
         }
