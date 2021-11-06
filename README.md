@@ -12,9 +12,47 @@ Globally and safely persist a value, implemented with `ManuallyDrop`.
 `Cargo.toml`
 
 ```toml
-react-sys = "1"
+react-sys = "1.0.0-alpha.4"
 ```
 
-# Docs
+Though the version is at `1.x-alpha`,
+this crate is NOT ready for production
+and under heavy development.
+This crate is used by [`frender`](https://github.com/frender-rs/frender), which provides a friendly and safe api to use React in rust.
 
-Please see [docs.rs](https://docs.rs/react-sys)
+# TODO
+
+- Hooks
+
+  - [x] `React.useState`
+  - [x] `React.useRef`
+  - [x] `React.useEffect` `unsafe`
+  - [ ] `React.useContext`
+  - [ ] `useLayoutEffect`
+
+  - [ ] Can we implement the following hooks in rust ?
+
+    - [ ] `React.useMemo`
+    - [ ] `React.useCallback`
+
+      Maybe we should implement a `use_closure` hook in rust.
+
+  - [ ] Do we need the following hooks in rust ?
+
+    - [ ] `React.useReducer`
+    - [ ] `React.useImperativeHandle`
+    - [ ] `useDebugValue`
+
+- [ ] `ErrorBoundary`
+- [ ] `React.memo`
+
+- [ ] `Component`
+
+  - [ ] html
+  - [ ] functional component with hooks
+
+- [ ] `Element`
+
+  - [x] `React.createElement`
+  - [ ] `React.Element` cast between js and rust wasm
+  - [ ] `jsx` like syntax to create element
