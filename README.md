@@ -5,7 +5,7 @@
 [![GitHub license](https://img.shields.io/github/license/frender-rs/react-sys?style=for-the-badge)](https://github.com/frender-rs/react-sys/blob/main/LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/frender-rs/react-sys?style=for-the-badge)](https://github.com/frender-rs/react-sys/stargazers)
 
-Globally and safely persist a value, implemented with `ManuallyDrop`.
+Rust bindings for `React`.
 
 # Install
 
