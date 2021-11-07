@@ -1,3 +1,5 @@
+use std::stringify;
+
 macro_rules! define_react_use_ref_for_type {
     ( { value: $type_value:ty, $($t:tt)+ } ) => {
         define_react_use_ref_for_type! {{
@@ -14,10 +16,7 @@ macro_rules! define_react_use_ref_for_type {
         $name_use_with:ident
         $(,)?
     }) => {
-        use $crate::macro_import::wasm_bindgen_react;
-        use std::stringify;
-
-        wasm_bindgen_react! {
+        $crate::macro_import::wasm_bindgen_react! {
             /// MutableRefObject<
             #[doc = stringify!($output_type)]
             /// >

@@ -9,4 +9,10 @@ define_react_use_ref_helpers! {
         use_ref_usize,
         use_ref_usize_with,
     },
+    {
+        value: bool,
+        object: MutableRefObjectBool,
+        use_ref_bool,
+        use_ref_bool_with,
+    },
 }
