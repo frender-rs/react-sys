@@ -10,6 +10,12 @@ define_react_use_ref_helpers! {
         use_ref_usize_with,
     },
     {
+        value: Option<usize>,
+        object: MutableRefObjectOptionalUsize,
+        use_ref_optional_usize,
+        use_ref_optional_usize_with,
+    },
+    {
         value: bool,
         object: MutableRefObjectBool,
         use_ref_bool,
