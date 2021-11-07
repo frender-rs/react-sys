@@ -1,3 +1,10 @@
+# [1.0.0-alpha.7](https://github.com/frender-rs/react-sys/compare/v1.0.0-alpha.6...v1.0.0-alpha.7) (2021-11-07)
+
+
+### Features
+
+* React.useRef<bool> ([b0e654c](https://github.com/frender-rs/react-sys/commit/b0e654c662beb774398cf4df95f046e815e3db08))
+
 # [1.0.0-alpha.6](https://github.com/frender-rs/react-sys/compare/v1.0.0-alpha.5...v1.0.0-alpha.6) (2021-11-07)
 
 
