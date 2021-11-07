@@ -1,3 +1,15 @@
+# [1.0.0-alpha.6](https://github.com/frender-rs/react-sys/compare/v1.0.0-alpha.5...v1.0.0-alpha.6) (2021-11-07)
+
+
+### Bug Fixes
+
+* remove unexpected std exports ([b484716](https://github.com/frender-rs/react-sys/commit/b484716246bb11cec473a6a0073d6301bab02c8d))
+
+
+### BREAKING CHANGES
+
+* `std::{ concat, stringify }` are unexpected exported in previous versions. Now they are removed
+
 # [1.0.0-alpha.5](https://github.com/frender-rs/react-sys/compare/v1.0.0-alpha.4...v1.0.0-alpha.5) (2021-11-07)
 
 
