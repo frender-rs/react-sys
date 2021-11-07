@@ -1,3 +1,10 @@
+# [1.0.0-alpha.5](https://github.com/frender-rs/react-sys/compare/v1.0.0-alpha.4...v1.0.0-alpha.5) (2021-11-07)
+
+
+### Bug Fixes
+
+* specify dep wasm-bindgen version in range ([2ef9590](https://github.com/frender-rs/react-sys/commit/2ef9590a6123d232cd29e7c6e261a3f2d14df397))
+
 # [1.0.0-alpha.4](https://github.com/frender-rs/react-sys/compare/v1.0.0-alpha.3...v1.0.0-alpha.4) (2021-11-06)
 
 
