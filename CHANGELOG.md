@@ -1,3 +1,10 @@
+# [1.0.0-alpha.8](https://github.com/frender-rs/react-sys/compare/v1.0.0-alpha.7...v1.0.0-alpha.8) (2021-11-07)
+
+
+### Features
+
+* React.useRef<Option<usize>> ([cd880c1](https://github.com/frender-rs/react-sys/commit/cd880c1ec9727f4cca189d31febb573bb8d72f05))
+
 # [1.0.0-alpha.7](https://github.com/frender-rs/react-sys/compare/v1.0.0-alpha.6...v1.0.0-alpha.7) (2021-11-07)
 
 
