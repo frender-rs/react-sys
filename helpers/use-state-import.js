@@ -7,8 +7,6 @@ export function use_state_object(initial_value) {
 export function use_state_auto_clean(initial_value, clean) {
   const obj = use_state_object(initial_value);
   const state = obj.value;
-  React.useEffect(() => {
-    clean(state);
-  }, [state]);
+  React.useEffect(() => () => void clean(state), [state]);
   return obj;
 }

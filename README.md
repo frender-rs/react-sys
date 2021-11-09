@@ -12,7 +12,7 @@ Rust bindings for `React`.
 `Cargo.toml`
 
 ```toml
-react-sys = "1.0.0-alpha.10"
+react-sys = "1.0.0-alpha.11"
 ```
 
 Though the version is at `1.x-alpha`,
