@@ -1,3 +1,10 @@
+# [1.0.0-alpha.9](https://github.com/frender-rs/react-sys/compare/v1.0.0-alpha.8...v1.0.0-alpha.9) (2021-11-09)
+
+
+### Bug Fixes
+
+* pub react_dom::render ([9344a72](https://github.com/frender-rs/react-sys/commit/9344a72c57353c0d62c2376b688b3838c3f6ca54))
+
 # [1.0.0-alpha.8](https://github.com/frender-rs/react-sys/compare/v1.0.0-alpha.7...v1.0.0-alpha.8) (2021-11-07)
 
 
