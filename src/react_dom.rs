@@ -22,5 +22,5 @@ macro_rules! wasm_bindgen_react_dom {
 
 wasm_bindgen_react_dom! {
     #[wasm_bindgen(js_namespace = ReactDOM)]
-    fn render(react_element: &crate::Element, dom_element: &web_sys::Element);
+    pub fn render(react_element: &crate::Element, dom_element: &web_sys::Element);
 }
