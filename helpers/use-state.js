@@ -8,4 +8,5 @@ export function use_state_auto_clean(initial_value, clean) {
   React.useEffect(() => {
     clean(state);
   }, [state]);
+  return obj;
 }
