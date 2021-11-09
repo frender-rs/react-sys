@@ -1,3 +1,10 @@
+# [1.0.0-alpha.10](https://github.com/frender-rs/react-sys/compare/v1.0.0-alpha.9...v1.0.0-alpha.10) (2021-11-09)
+
+
+### Bug Fixes
+
+* helper use_state_auto_clean not returned ([e5d5129](https://github.com/frender-rs/react-sys/commit/e5d5129993fd4a401c99ffba6a82b7ed7e035b75))
+
 # [1.0.0-alpha.9](https://github.com/frender-rs/react-sys/compare/v1.0.0-alpha.8...v1.0.0-alpha.9) (2021-11-09)
 
 
