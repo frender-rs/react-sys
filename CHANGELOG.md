@@ -1,3 +1,10 @@
+# [1.0.0-alpha.12](https://github.com/frender-rs/react-sys/compare/v1.0.0-alpha.11...v1.0.0-alpha.12) (2021-11-23)
+
+
+### Features
+
+* create_element_fn and create_element_fn_mut ([0ad37fd](https://github.com/frender-rs/react-sys/commit/0ad37fd6d2b57a0fc0890da4803d0d8b2346073c))
+
 # [1.0.0-alpha.11](https://github.com/frender-rs/react-sys/compare/v1.0.0-alpha.10...v1.0.0-alpha.11) (2021-11-09)
 
 

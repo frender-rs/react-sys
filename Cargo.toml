@@ -1,6 +1,6 @@
 [package]
 name = "react-sys"
-version = "1.0.0-alpha.11" # replace version
+version = "1.0.0-alpha.12" # replace version
 edition = "2018"
 description = "React bindings for rust"
 license = "MIT"
