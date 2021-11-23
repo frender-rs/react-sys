@@ -17,4 +17,24 @@ crate::macro_import::wasm_bindgen_react! {
         props: JsValue,
         children: js_sys::Array,
     ) -> Element;
+
+    /// # Safety
+    ///
+    /// the function in `element_type` closure should live longer enough
+    #[wasm_bindgen(variadic, js_namespace = React, js_name = createElement)]
+    pub unsafe fn create_element_fn(
+        element_type: &Closure<dyn Fn(js_sys::Object) -> Element>,
+        props: JsValue,
+        children: js_sys::Array,
+    ) -> Element;
+
+    /// # Safety
+    ///
+    /// the function in `element_type` closure should live longer enough
+    #[wasm_bindgen(variadic, js_namespace = React, js_name = createElement)]
+    pub unsafe fn create_element_fn_mut(
+        element_type: &Closure<dyn FnMut(js_sys::Object) -> Element>,
+        props: JsValue,
+        children: js_sys::Array,
+    ) -> Element;
 }
