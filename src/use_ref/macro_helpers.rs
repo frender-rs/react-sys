@@ -1,5 +1,3 @@
-use std::stringify;
-
 macro_rules! define_react_use_ref_for_type {
     ( { value: $type_value:ty, $($t:tt)+ } ) => {
         define_react_use_ref_for_type! {{
