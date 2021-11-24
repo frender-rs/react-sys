@@ -21,4 +21,16 @@ define_react_use_ref_helpers! {
         use_ref_bool,
         use_ref_bool_with,
     },
+    {
+        value: web_sys::HtmlElement,
+        object: MutableRefObjectHtmlElment,
+        use_ref_html_element,
+        use_ref_html_element_with,
+    },
+    {
+        value: Option<web_sys::HtmlElement>,
+        object: MutableRefObjectOptionalHtmlElment,
+        use_ref_optional_html_element,
+        use_ref_optional_html_element_with,
+    },
 }

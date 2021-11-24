@@ -40,6 +40,7 @@ features = [
     "Window",
     "Document",
     "Element",
+    "HtmlElement",
 ]
 
 [dev-dependencies]
