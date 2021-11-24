@@ -1,3 +1,10 @@
+# [1.0.0-alpha.17](https://github.com/frender-rs/react-sys/compare/v1.0.0-alpha.16...v1.0.0-alpha.17) (2021-11-24)
+
+
+### Bug Fixes
+
+* typo for MutableRefObjectOptionalHtmlElement and MutableRefObjectHtmlElement ([e165eb7](https://github.com/frender-rs/react-sys/commit/e165eb71516008e53b2e18d4018a03a27d4db4cc))
+
 # [1.0.0-alpha.16](https://github.com/frender-rs/react-sys/compare/v1.0.0-alpha.15...v1.0.0-alpha.16) (2021-11-24)
 
 
