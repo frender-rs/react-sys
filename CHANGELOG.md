@@ -1,3 +1,10 @@
+# [1.0.0-alpha.16](https://github.com/frender-rs/react-sys/compare/v1.0.0-alpha.15...v1.0.0-alpha.16) (2021-11-24)
+
+
+### Features
+
+* use_ref<HtmlElement> ([8844a8b](https://github.com/frender-rs/react-sys/commit/8844a8bfa29eda53fe5d6893792a49c9ede48f21))
+
 # [1.0.0-alpha.15](https://github.com/frender-rs/react-sys/compare/v1.0.0-alpha.14...v1.0.0-alpha.15) (2021-11-24)
 
 
