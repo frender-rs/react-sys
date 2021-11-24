@@ -23,13 +23,13 @@ define_react_use_ref_helpers! {
     },
     {
         value: web_sys::HtmlElement,
-        object: MutableRefObjectHtmlElment,
+        object: MutableRefObjectHtmlElement,
         use_ref_html_element,
         use_ref_html_element_with,
     },
     {
         value: Option<web_sys::HtmlElement>,
-        object: MutableRefObjectOptionalHtmlElment,
+        object: MutableRefObjectOptionalHtmlElement,
         use_ref_optional_html_element,
         use_ref_optional_html_element_with,
     },
