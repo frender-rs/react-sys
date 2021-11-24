@@ -1,3 +1,10 @@
+# [1.0.0-alpha.15](https://github.com/frender-rs/react-sys/compare/v1.0.0-alpha.14...v1.0.0-alpha.15) (2021-11-24)
+
+
+### Features
+
+* create_element_intrinsic ([724643e](https://github.com/frender-rs/react-sys/commit/724643eb79c4bba5044088a13aeba72be1d6abb3))
+
 # [1.0.0-alpha.14](https://github.com/frender-rs/react-sys/compare/v1.0.0-alpha.13...v1.0.0-alpha.14) (2021-11-24)
 
 
