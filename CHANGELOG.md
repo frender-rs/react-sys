@@ -1,3 +1,15 @@
+# [1.0.0-alpha.14](https://github.com/frender-rs/react-sys/compare/v1.0.0-alpha.13...v1.0.0-alpha.14) (2021-11-24)
+
+
+### Features
+
+* rename create_element_with_props to create_element_no_children ([318b3af](https://github.com/frender-rs/react-sys/commit/318b3af89da592939b6f7bc18e97feb6f4371c8e))
+
+
+### BREAKING CHANGES
+
+* `create_element_with_props` renamed to `create_element_no_children`
+
 # [1.0.0-alpha.13](https://github.com/frender-rs/react-sys/compare/v1.0.0-alpha.12...v1.0.0-alpha.13) (2021-11-24)
 
 
