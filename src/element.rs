@@ -9,7 +9,7 @@ crate::macro_import::wasm_bindgen_react! {
     pub fn create_element_no_props(element_type: &JsValue) -> Element;
 
     #[wasm_bindgen(js_namespace = React, js_name = createElement)]
-    pub fn create_element_with_props(element_type: &JsValue, props: &JsValue) -> Element;
+    pub fn create_element_no_children(element_type: &JsValue, props: &JsValue) -> Element;
 
     #[wasm_bindgen(variadic, js_namespace = React, js_name = createElement)]
     pub fn create_element(
