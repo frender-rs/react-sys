@@ -37,4 +37,17 @@ crate::macro_import::wasm_bindgen_react! {
         props: &JsValue,
         children: &js_sys::Array,
     ) -> Element;
+
+    #[wasm_bindgen(js_namespace = React, js_name = createElement)]
+    pub fn create_element_intrinsic_no_props(element_type: &str) -> Element;
+
+    #[wasm_bindgen(js_namespace = React, js_name = createElement)]
+    pub fn create_element_intrinsic_no_children(element_type: &str, props: &JsValue) -> Element;
+
+    #[wasm_bindgen(variadic, js_namespace = React, js_name = createElement)]
+    pub fn create_element_intrinsic(
+        element_type: &str,
+        props: &JsValue,
+        children: &js_sys::Array,
+    ) -> Element;
 }
