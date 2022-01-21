@@ -7,6 +7,7 @@ mod helpers;
 pub use helpers::*;
 
 wasm_bindgen_react! {
+    #[derive(Debug, Clone)]
     pub type MutableRefObject;
     #[wasm_bindgen(structural, method, getter)]
     pub fn current(this: &MutableRefObject) -> JsValue;
