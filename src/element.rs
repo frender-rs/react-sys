@@ -1,6 +1,7 @@
 use wasm_bindgen::prelude::*;
 
 crate::macro_import::wasm_bindgen_react! {
+    #[derive(Debug, Clone)]
     pub type Element;
     #[wasm_bindgen(structural, method, getter = r#type)]
     pub fn kind(this: &Element) -> JsValue;
