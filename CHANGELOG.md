@@ -1,3 +1,10 @@
+# [1.0.0-alpha.19](https://github.com/frender-rs/react-sys/compare/v1.0.0-alpha.18...v1.0.0-alpha.19) (2022-01-21)
+
+
+### Features
+
+* derive Debug Clone for ElementMutableRefObject ([f428fc8](https://github.com/frender-rs/react-sys/commit/f428fc86244bbb6efef551c9e7539cfdcd003aee))
+
 # [1.0.0-alpha.18](https://github.com/frender-rs/react-sys/compare/v1.0.0-alpha.17...v1.0.0-alpha.18) (2022-01-21)
 
 
