@@ -1,3 +1,10 @@
+# [1.0.0-alpha.18](https://github.com/frender-rs/react-sys/compare/v1.0.0-alpha.17...v1.0.0-alpha.18) (2022-01-21)
+
+
+### Features
+
+* derive Debug Clone for Element ([e49648b](https://github.com/frender-rs/react-sys/commit/e49648bd3ad76c8fac93753152d693023180ada9))
+
 # [1.0.0-alpha.17](https://github.com/frender-rs/react-sys/compare/v1.0.0-alpha.16...v1.0.0-alpha.17) (2021-11-24)
 
 
