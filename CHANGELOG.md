@@ -1,3 +1,10 @@
+# [1.0.0-alpha.20](https://github.com/frender-rs/react-sys/compare/v1.0.0-alpha.19...v1.0.0-alpha.20) (2022-01-26)
+
+
+### Features
+
+* helper method create_fragment ([cb3fbb6](https://github.com/frender-rs/react-sys/commit/cb3fbb624b76ab78d622a82aa15e0c7c710ad429))
+
 # [1.0.0-alpha.19](https://github.com/frender-rs/react-sys/compare/v1.0.0-alpha.18...v1.0.0-alpha.19) (2022-01-21)
 
 
