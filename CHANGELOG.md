@@ -1,3 +1,10 @@
+# [1.0.0-alpha.22](https://github.com/frender-rs/react-sys/compare/v1.0.0-alpha.21...v1.0.0-alpha.22) (2022-02-12)
+
+
+### Bug Fixes
+
+* pub Fragment and StrictMode ([d2dfe5d](https://github.com/frender-rs/react-sys/commit/d2dfe5d569b744dca80ecedcad6469a665d5c001))
+
 # [1.0.0-alpha.21](https://github.com/frender-rs/react-sys/compare/v1.0.0-alpha.20...v1.0.0-alpha.21) (2022-02-12)
 
 
