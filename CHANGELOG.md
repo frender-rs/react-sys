@@ -1,3 +1,10 @@
+# [1.0.0-alpha.21](https://github.com/frender-rs/react-sys/compare/v1.0.0-alpha.20...v1.0.0-alpha.21) (2022-02-12)
+
+
+### Features
+
+* React.Fragment and React.StrictMode ([a9141f1](https://github.com/frender-rs/react-sys/commit/a9141f145fa4c32fed1a2207b1c38bc7581390dc))
+
 # [1.0.0-alpha.20](https://github.com/frender-rs/react-sys/compare/v1.0.0-alpha.19...v1.0.0-alpha.20) (2022-01-26)
 
 
