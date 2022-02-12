@@ -4,7 +4,7 @@ use wasm_bindgen::prelude::*;
 
 crate::macro_import::wasm_bindgen_react! {
     #[wasm_bindgen(js_namespace = React)]
-    static Fragment: JsValue;
+    pub static Fragment: JsValue;
     #[wasm_bindgen(js_namespace = React)]
-    static StrictMode: JsValue;
+    pub static StrictMode: JsValue;
 }
