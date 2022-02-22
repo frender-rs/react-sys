@@ -1,3 +1,15 @@
+# [1.0.0-alpha.23](https://github.com/frender-rs/react-sys/compare/v1.0.0-alpha.22...v1.0.0-alpha.23) (2022-02-22)
+
+
+### Features
+
+* now use_effect accepts `JsValue` as effect function ([39f8489](https://github.com/frender-rs/react-sys/commit/39f84896c7c1938e2f3afa7cf23ea9f6f0051df8))
+
+
+### BREAKING CHANGES
+
+* use_effect* api changed
+
 # [1.0.0-alpha.22](https://github.com/frender-rs/react-sys/compare/v1.0.0-alpha.21...v1.0.0-alpha.22) (2022-02-12)
 
 
