@@ -5,26 +5,27 @@ crate::macro_import::wasm_bindgen_react! {
     ///
     /// # Safety
     ///
-    /// `effect` closure will be passed to js runtime
-    /// and called ( or never called ) asynchronously by React.
+    /// `effect` should be a js function.
     ///
-    /// As [`wasm_bindgen`](https://rustwasm.github.io/docs/wasm-bindgen/reference/passing-rust-closures-to-js.html) describes,
+    /// If `effect` is the value returned from `Closure::once_into_js()`.
+    /// You need to make sure `effect` changes if and only if
+    /// `dependencies` change.
+    /// If `dependencies` change but `effect` doesn't change,
+    /// `effect` will be called more than once.
+    /// If `effect` but `dependencies` doesn't change,
+    /// `effect` will never be called causing memory leak.
     ///
-    /// > Once a Closure is dropped, it will deallocate its internal memory
-    /// > and invalidate the corresponding JavaScript function
-    /// > so that any further attempts to invoke it raise an exception.
-    ///
-    /// Rust compiler can only ensure this closure is not dropped before `use_effect` returned,
-    /// so it's up to you to make sure the closure lived longer enough
-    /// to be valid in the component life time.
-    ///
-    /// Thus, this function is marked `unsafe` as a warning.
     #[wasm_bindgen(js_namespace = React, js_name = useEffect)]
-    pub unsafe fn use_effect(effect: &Closure<dyn FnMut()>, dependencies: Option<Box<[JsValue]>>);
+    pub unsafe fn use_effect(effect: JsValue, dependencies: js_sys::Array);
 
+    /// `React.useEffect(effect)`
+    ///
+    /// # Safety
+    ///
+    /// `effect` should be a js function.
+    ///
+    /// It can the value returned from `Closure::once_into_js()`.
+    ///
     #[wasm_bindgen(js_namespace = React, js_name = useEffect)]
-    pub unsafe fn use_effect_with_clean(
-        effect: &Closure<dyn FnMut() -> JsValue>,
-        dependencies: Option<Box<[JsValue]>>,
-    );
+    pub unsafe fn use_effect_on_each_render(effect: JsValue);
 }
